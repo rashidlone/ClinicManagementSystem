@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "rewrites": [ {
+      "source": "/*",
+      "destination": "/index.html"
+    } ],
+   "site": "bookingsystem-clinic",
+    "public": "build",
+    "cleanUrls": true, 
+    
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
